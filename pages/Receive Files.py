@@ -1,6 +1,6 @@
 from assets import *
 
-center_title("s", 70, "green", "Receive Files")
+center_title("s", 70, "red", "Receive Files")
 
 # Input for the share code
 code = st.number_input(label="Enter the Code",
