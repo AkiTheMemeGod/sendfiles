@@ -7,7 +7,7 @@ hide_streamlit_style = """
     footer {visibility: hidden;} /* Hides the footer */
     header {visibility: hidden;} /* Hides the header */
     .stToolbar {visibility: hidden;} /* Hides the Streamlit toolbar */
-    ._profilePreview_1yi6l_63 {display: none;} /* Hides the GitHub DP and fork ribbon */
+    ._profileContainer_1yi6l_53 {visibility: hidden;} /* Hides the GitHub DP and fork ribbon */
     .stApp {margin-top: -40px;}
     </style>
 """
