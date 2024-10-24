@@ -3,10 +3,11 @@ from assets import *
 
 hide_streamlit_style = """
     <style>
-    #MainMenu {visibility: hidden;}
-    footer {visibility: hidden;}
-    header {visibility: hidden;}
-    .stToolbar {visibility: hidden;}
+    #MainMenu {visibility: hidden;} /* Hides the hamburger menu */
+    footer {visibility: hidden;} /* Hides the footer */
+    header {visibility: hidden;} /* Hides the header */
+    .stToolbar {visibility: hidden;} /* Hides the Streamlit toolbar */
+    .viewerBadge_link__1S137 {display: none;} /* Hides the GitHub DP and fork ribbon */
     .stApp {margin-top: -40px;}
     </style>
 """
